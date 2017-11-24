@@ -5,3 +5,9 @@ function sum(a) {
         return a + b;
     }
 }
+
+function diff(a) {
+    return function(b) {
+        return a - b;
+    }
+}
